@@ -1,0 +1,78 @@
+/nologo
+/target:library
+/platform:AnyCPU
+/debug+
+/debug:portable
+/errorreport:prompt
+/preferreduilang:en-US
+/highentropyva+
+/deterministic
+/nostdlib+
+/errorendlocation
+/utf8output
+/warn:4
+/unsafe
+/fullpaths
+/filealign:512
+/langversion:11.0
+/nullable:disable
+-nowarn:8632
+-nowarn:1591
+/optimize-
+/out:"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.dll"
+/doc:"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.xml"
+/generatedfilesout:"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Cache/Intermediate\GameEditorTarget\Windows\x64\Development"
+/define:BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_1;FLAX_1_6;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX;FLAX_ASSERTIONS;FLAX_EDITOR;USE_NETCORE;NET7_0;NET7_0_OR_GREATER;NET6_0;NET6_0_OR_GREATER;NET5_0;NET5_0_OR_GREATER;NET;NETCOREAPP3_1;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0;NETCOREAPP1_0_OR_GREATER;NETCOREAPP
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\mscorlib.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\netstandard.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\Microsoft.CSharp.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Collections.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Collections.Concurrent.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Collections.NonGeneric.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Collections.Specialized.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Collections.Immutable.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.DataAnnotations.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ComponentModel.Primitives.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Console.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Core.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Diagnostics.StackTrace.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Globalization.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.IO.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.IO.Compression.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.IO.FileSystem.Watcher.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Linq.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Linq.Expressions.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Memory.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Net.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Net.Http.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Net.Primitives.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ObjectModel.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.ValueTuple.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Extensions.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Handles.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Intrinsics.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Numerics.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Loader.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.CompilerServices.Unsafe.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.InteropServices.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Serialization.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Runtime.Serialization.Formatters.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.Algorithms.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Security.Cryptography.Primitives.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Threading.Tasks.Parallel.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Threading.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Threading.Thread.dll"
+/reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\System.Reflection.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_master\Binaries\Editor\Win64\Development\FlaxEngine.CSharp.dll"
+/reference:"C:\Program Files (x86)\Flax\Flax_master\Source\Platforms\DotNet\Newtonsoft.Json.dll"
+/analyzer:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\analyzers\dotnet\cs\Microsoft.Interop.LibraryImportGenerator.dll"
+/analyzer:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\analyzers\dotnet\cs\Microsoft.Interop.SourceGeneration.dll"
+"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Source\Game.Gen.cs"
+"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Source\Game\Scripts\Player\CameraManager.cs"
+"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Source\Game\Scripts\Player\Player.cs"
+"C:\Users\taigo\OneDrive\Documentos\Flax Projects\FlaxForUnityDevs\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\Game.CSharp.AssemblyAttributes.cs"

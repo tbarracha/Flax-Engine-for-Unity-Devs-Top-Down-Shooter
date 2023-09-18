@@ -1,0 +1,54 @@
+{
+	"ID": "66f6b8f440c821d5ef9c14a1b7c1f613",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6344,
+	"Data": [
+	{
+		"ID": "132e76d4491ba8f9b7914e8b2387ce4f",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Wall",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 1050.0
+			}
+		}
+	},
+	{
+		"ID": "e6ffe007483101fb4351abb5ffa46cfc",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "132e76d4491ba8f9b7914e8b2387ce4f",
+		"Name": "Wall Model",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 10.0,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 22.0,
+				"Y": 2.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "23b087044b7d27b01963f0adf511819c",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "a4d48dc44917e80a8a6ec2ae01e6c76f",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "e6ffe007483101fb4351abb5ffa46cfc",
+		"Name": "Wall Collider"
+	}
+]
+}

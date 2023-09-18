@@ -1,0 +1,37 @@
+﻿<DockPanelLayout Version="4">
+	<MainWindow IsMaximized="True">
+		<Bounds X="0" Y="0" Width="2560" Height="1356" />
+	</MainWindow>
+	<MasterPanel SelectedTab="0">
+		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
+			<Data GridEnabled="True" ShowFpsCounter="False" ShowNavigation="False" NearPlane="8" FarPlane="20000" FieldOfView="60" MovementSpeed="8" OrthographicScale="1" UseOrthographicProjection="False" ViewFlags="122683391" />
+		</Window>
+		<Panel DockState="10" SplitterValue="0.24000001" SelectedTab="0">
+			<Window Typename="::FlaxEditor.Windows.PropertiesWindow">
+				<Data ScaleLinked="False" UIPivotRelative="True" />
+			</Window>
+			<Panel DockState="7" SplitterValue="0.37675765" SelectedTab="0">
+				<Window Typename="::FlaxEditor.Windows.ToolboxWindow" />
+			</Panel>
+		</Panel>
+		<Panel DockState="9" SplitterValue="0.37185723" SelectedTab="0">
+			<Window Typename="::FlaxEditor.Windows.ContentWindow">
+				<Data Split="0.2" Scale="1" ShowFileExtensions="False" ShowEngineFiles="True" ShowPluginsFiles="True" ShowAllFiles="True" ViewType="Tiles" />
+			</Window>
+			<Window Typename="::FlaxEditor.Windows.DebugLogWindow">
+				<Data Split="0.8" />
+			</Window>
+			<Window Typename="::FlaxEditor.Windows.OutputLogWindow">
+				<Data LogTypeShowMask="15" />
+			</Window>
+		</Panel>
+		<Panel DockState="10" SplitterValue="0.16020411" SelectedTab="0">
+			<Window Typename="::FlaxEditor.Windows.SceneTreeWindow" />
+		</Panel>
+		<Panel DockState="8" SplitterValue="0.44292548" SelectedTab="0">
+			<Window Typename="::FlaxEditor.Windows.GameWindow">
+				<Data ShowGUI="True" ShowDebugDraw="False" DefaultViewportScaling="[&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;Free Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 1,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;16:9 Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 16,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 9&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: true&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;16:10 Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 16,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 10&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;1920x1080 Resolution&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 0,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 1920,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1080&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;2560x1440 Resolution&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 0,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 2560,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1440&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;}&#xD;&#xA;]" CustomViewportScaling="[]" />
+			</Window>
+		</Panel>
+	</MasterPanel>
+</DockPanelLayout>

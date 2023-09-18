@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "BuildScripts": {
+      "commandName": "Executable",
+      "workingDirectory": "C:\\Users\\taigo\\OneDrive\\Documentos\\Flax Projects\\FlaxForUnityDevs",
+      "executablePath": "C:\\Program Files (x86)\\Flax\\Flax_master\\Binaries\\Editor\\Win64\\Development\\FlaxEditor.exe",
+      "commandLineArgs": "-project \"C:\\Users\\taigo\\OneDrive\\Documentos\\Flax Projects\\FlaxForUnityDevs\"",
+      "nativeDebugging": false
+    }
+  }
+}
