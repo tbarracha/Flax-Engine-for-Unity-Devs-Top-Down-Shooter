@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taigo\\OneDrive\\Documentos\\Flax Projects\\FlaxForUnityDevs\\Cache\\Projects\\BuildScripts.csproj",
+      "projectUniqueName": "C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\\Cache\\Projects\\BuildScripts.csproj",
       "projectName": "BuildScripts.CSharp",
-      "projectPath": "C:\\Users\\taigo\\OneDrive\\Documentos\\Flax Projects\\FlaxForUnityDevs\\Cache\\Projects\\BuildScripts.csproj",
+      "projectPath": "C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\\Cache\\Projects\\BuildScripts.csproj",
       "packagesPath": "C:\\Users\\taigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taigo\\OneDrive\\Documentos\\Flax Projects\\FlaxForUnityDevs\\Cache\\Projects\\obj\\",
+      "outputPath": "C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\\Cache\\Projects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\taigo\\AppData\\Roaming\\NuGet\\NuGet.Config",

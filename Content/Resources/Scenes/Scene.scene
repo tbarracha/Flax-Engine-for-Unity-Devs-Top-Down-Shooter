@@ -335,19 +335,13 @@
 			"TypeName": "Game.Player",
 			"ParentID": "6e00fcf0456af2324ac1c8967a92ae26",
 			"V": {
-	"pickActor": "8740c7a348804ed706b4b69aeb08d919",
-	"pickCollider": "e749d374468dabf963bc048c8ff5a8dc",
 	"rigidBody": "6e00fcf0456af2324ac1c8967a92ae26",
 	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05",
-	"projectilePrefab": "3889b56b4c23e0c612da16b2c1103aa4",
-	"spawnPoint": "8635b31d4f737394e95b0bbd96a77b2e"
+	"pickActor": "8740c7a348804ed706b4b69aeb08d919",
+	"pickCollider": "e749d374468dabf963bc048c8ff5a8dc",
+	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
+	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15"
 }
-		},
-		{
-			"ID": "1e4fed28457c741c61f73680747f014a",
-			"TypeName": "Game.HealthComponent",
-			"ParentID": "6e00fcf0456af2324ac1c8967a92ae26",
-			"V": {}
 		},
 		{
 			"ID": "18fe9e2e48abdd1ed75db4b7cec5fc05",
@@ -423,7 +417,7 @@
 			}
 		},
 		{
-			"ID": "8635b31d4f737394e95b0bbd96a77b2e",
+			"ID": "8744ce4e45f05eab32c65bb173546a15",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "337927004b65d2f03a4822b3589de0ff",
 			"Name": "Spawn Point",
@@ -431,12 +425,12 @@
 				"Translation": {
 					"X": 0.0,
 					"Y": 50.0,
-					"Z": 65.0
+					"Z": 60.0
 				},
 				"Scale": {
-					"X": 0.30000001192092898,
-					"Y": 0.30000001192092898,
-					"Z": 0.30000001192092898
+					"X": 0.20000000298023225,
+					"Y": 0.20000000298023225,
+					"Z": 0.20000000298023225
 				}
 			},
 			"Model": "dd86c4724bf734c4959d23b3c74faa05",
@@ -452,149 +446,39 @@
 			}
 		},
 		{
-			"ID": "aebf31bc48ee8941e913e68ae3c73a4b",
-			"TypeName": "FlaxEngine.EmptyActor",
+			"ID": "29f400ef42808fbc6ada999a2c10096f",
+			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
+			"PrefabObjectID": "d2dea6bb49e15e64a29ddf8ffa0c7488",
 			"ParentID": "00b5bdc9472a4e5ebbae5b9a5408dad1",
-			"Name": "Enemy Manager"
-		},
-		{
-			"ID": "b54dfed24fe507b45ed5a483b70293fb",
-			"TypeName": "FlaxEngine.RigidBody",
-			"ParentID": "aebf31bc48ee8941e913e68ae3c73a4b",
-			"Name": "Enemy",
 			"Transform": {
 				"Translation": {
-					"X": -690.0,
-					"Y": 0.0,
-					"Z": 590.0
-				},
-				"Scale": {
-					"X": 2.0,
-					"Y": 2.0,
-					"Z": 2.0
+					"X": 0.0,
+					"Y": 130.0,
+					"Z": 200.0
 				}
-			},
-			"Mass": 1308.9970703125,
-			"Constraints": 40
+			}
 		},
 		{
-			"ID": "d1bdc4af44e5b1391f6f03b96728093a",
-			"TypeName": "Game.Enemy",
-			"ParentID": "b54dfed24fe507b45ed5a483b70293fb",
+			"ID": "c26ee22744993741e1822e86ab5678b2",
+			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
+			"PrefabObjectID": "4b1b6aeb407bbfae065649b464b16a1e",
+			"ParentID": "29f400ef42808fbc6ada999a2c10096f",
 			"V": {
-	"rigidBody": "b54dfed24fe507b45ed5a483b70293fb",
-	"collider": "31dab6f04d042d5131d017a6653a1e74",
-	"speed": 2.0,
-	"projectilePrefab": "3889b56b4c23e0c612da16b2c1103aa4",
-	"spawnPoint": "228564994517127c6c5a0e9bda380a11",
-	"fireRate": 2.0
+	"hitBoxSize": {
+		"X": 30.0,
+		"Y": 30.0,
+		"Z": 50.0
+	}
 }
 		},
 		{
-			"ID": "5674647b4375b7a41c8c91b4769ce144",
-			"TypeName": "Game.HealthComponent",
-			"ParentID": "b54dfed24fe507b45ed5a483b70293fb",
-			"V": {}
-		},
-		{
-			"ID": "31dab6f04d042d5131d017a6653a1e74",
-			"TypeName": "FlaxEngine.CapsuleCollider",
-			"ParentID": "b54dfed24fe507b45ed5a483b70293fb",
-			"Name": "Enemy Collider",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 50.0,
-					"Z": 0.0
-				},
-				"Orientation": {
-					"X": 0.0,
-					"Y": 0.0,
-					"Z": 0.7071068286895752,
-					"W": 0.7071068286895752
-				}
-			},
-			"Radius": 25.0,
-			"Height": 50.0
-		},
-		{
-			"ID": "02b62eda41bd59391af4c686f37abb5f",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "b54dfed24fe507b45ed5a483b70293fb",
-			"Name": "Graphics"
-		},
-		{
-			"ID": "a9ee76b64259e1cc9b221dbe5fccd7e0",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "02b62eda41bd59391af4c686f37abb5f",
-			"Name": "Capsule",
-			"Model": "3f82e57744f57c28285150b646ad2198",
+			"ID": "3106f55f4ada5c326b8d429cecb03e41",
+			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
+			"PrefabObjectID": "8a4e10df46d9738fbc85459bb788f34b",
+			"ParentID": "29f400ef42808fbc6ada999a2c10096f",
 			"Buffer": {
 				"Entries": [
-					{
-						"Material": "2c0d31bb402bd7c9e0f3a587a8f83121",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "3f5800c94357823ccb4fb19ed3253596",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "02b62eda41bd59391af4c686f37abb5f",
-			"Name": "Cube",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 60.0,
-					"Z": 20.0
-				},
-				"Scale": {
-					"X": 0.46252867579460146,
-					"Y": 0.3999747037887573,
-					"Z": 0.3082524538040161
-				}
-			},
-			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "541d392b42d37be8fffe22b67f281bc6",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "228564994517127c6c5a0e9bda380a11",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "02b62eda41bd59391af4c686f37abb5f",
-			"Name": "Spawn Point",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 50.0,
-					"Z": 65.0
-				},
-				"Scale": {
-					"X": 0.30000001192092898,
-					"Y": 0.30000001192092898,
-					"Z": 0.30000001192092898
-				}
-			},
-			"Model": "dd86c4724bf734c4959d23b3c74faa05",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
+					{}
 				]
 			}
 		}
