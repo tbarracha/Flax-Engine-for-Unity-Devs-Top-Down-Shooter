@@ -1,5 +1,4 @@
 ﻿
-
 using FlaxEngine;
 
 namespace Game

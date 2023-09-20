@@ -20,5 +20,172 @@
             <para> Returns true if agent is moving, and false if there is no path or if the agent has reached its destination </para> 
             </summary>
         </member>
+        <member name="T:Game.Extensions">
+            <summary>
+            Useful or missing extensions for the Flax Engine
+            </summary>
+        </member>
+        <member name="M:Game.Extensions.FindScriptInParent``1(FlaxEngine.Actor)">
+            <summary>
+            Recursively searches for a script of type T in the parent hierarchy of the provided actor.
+            </summary>
+        </member>
+        <member name="M:Game.Extensions.FindScriptInParent``1(FlaxEngine.Actor,System.Int32)">
+            <summary>
+            Finds a script of type T in the parent hierarchy of the provided actor.
+            </summary>
+        </member>
+        <member name="M:Game.Extensions.FindScriptsInChildren``1(FlaxEngine.Actor)">
+            <summary>
+            Finds all script components of type T in the children hierarchy of the provided actor.
+            </summary>
+        </member>
+        <member name="T:Event">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="M:Event.AddListener(System.Action)">
+            <summary>
+            Subscribes a class method to this event
+            </summary>
+        </member>
+        <member name="M:Event.RemoveListener(System.Action)">
+            <summary>
+            Removes the subscription of a class method to this event
+            </summary>
+        </member>
+        <member name="M:Event.ClearAllListeners">
+            <summary>
+            Removes all subscribers of this event
+            </summary>
+        </member>
+        <member name="T:Event`1">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`2">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`3">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`4">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`5">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`6">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`7">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`8">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`9">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`10">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`11">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`12">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`13">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`14">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`15">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="T:Event`16">
+            <summary>
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            </summary>
+        </member>
+        <member name="M:Randomize.Range(System.Int32,System.Int32)">
+            <summary>
+            Return a random integer value between or equals to the Min and Max values
+            </summary>
+        </member>
+        <member name="M:Randomize.Range(System.Single,System.Single)">
+            <summary>
+            Return a random float value between or equals to the Min and Max values
+            </summary>
+        </member>
+        <member name="M:Randomize.RandomInsideUnitCircle">
+            <summary>
+            Generates a random value inside a unit circle
+            </summary>
+        </member>
+        <member name="M:Randomize.RandomOutsideUnitCircle">
+            <summary>
+            Generates a random point on the surface of a unit circle
+            </summary>
+        </member>
+        <member name="M:Randomize.RandomInsideUnitSphere">
+            <summary>
+            Generates a random Vector3 point inside a unit sphere
+            </summary>
+        </member>
+        <member name="M:Randomize.RandomOutsideUnitSphere">
+            <summary>
+            Generates a random point on the surface of a unit sphere
+            </summary>
+        </member>
     </members>
 </doc>
