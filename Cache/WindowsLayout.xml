@@ -14,7 +14,7 @@
 				<Window Typename="::FlaxEditor.Windows.ToolboxWindow" />
 			</Panel>
 		</Panel>
-		<Panel DockState="9" SplitterValue="0.41894126" SelectedTab="0">
+		<Panel DockState="9" SplitterValue="0.25268817" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.ContentWindow">
 				<Data Split="0.2" Scale="1" ShowFileExtensions="False" ShowEngineFiles="True" ShowPluginsFiles="True" ShowAllFiles="True" ViewType="Tiles" />
 			</Window>
@@ -25,10 +25,10 @@
 				<Data LogTypeShowMask="15" />
 			</Window>
 		</Panel>
-		<Panel DockState="10" SplitterValue="0.19795918" SelectedTab="0">
+		<Panel DockState="10" SplitterValue="0.16602314" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.SceneTreeWindow" />
 		</Panel>
-		<Panel DockState="8" SplitterValue="0.61989796" SelectedTab="0">
+		<Panel DockState="8" SplitterValue="0.5955473" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.GameWindow">
 				<Data ShowGUI="True" ShowDebugDraw="False" DefaultViewportScaling="[&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;Free Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 1,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;16:9 Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 16,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 9&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: true&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;16:10 Aspect&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 1,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 16,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 10&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;1920x1080 Resolution&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 0,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 1920,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1080&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;},&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;&quot;Label&quot;: &quot;2560x1440 Resolution&quot;,&#xD;&#xA;&#x9;&#x9;&quot;ScaleType&quot;: 0,&#xD;&#xA;&#x9;&#x9;&quot;Size&quot;: {&#xD;&#xA;&#x9;&#x9;&#x9;&quot;X&quot;: 2560,&#xD;&#xA;&#x9;&#x9;&#x9;&quot;Y&quot;: 1440&#xD;&#xA;&#x9;&#x9;},&#xD;&#xA;&#x9;&#x9;&quot;Active&quot;: false&#xD;&#xA;&#x9;}&#xD;&#xA;]" CustomViewportScaling="[]" />
 			</Window>

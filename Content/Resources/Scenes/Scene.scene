@@ -616,7 +616,8 @@
 	"navAgent": "4a285d814eeefbde3339108718d0a0b4",
 	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
 	"rigidBody": "16231a424581830cb326ab9d5ed466e7",
-	"collider": "6b34dd8d4b97dad8fd754182118bf598"
+	"collider": "6b34dd8d4b97dad8fd754182118bf598",
+	"speed": 3.0
 }
 		},
 		{
