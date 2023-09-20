@@ -335,12 +335,12 @@
 			"TypeName": "Game.Player",
 			"ParentID": "6e00fcf0456af2324ac1c8967a92ae26",
 			"V": {
-	"rigidBody": "6e00fcf0456af2324ac1c8967a92ae26",
-	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05",
 	"pickActor": "8740c7a348804ed706b4b69aeb08d919",
 	"pickCollider": "e749d374468dabf963bc048c8ff5a8dc",
 	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
-	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15"
+	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15",
+	"rigidBody": "6e00fcf0456af2324ac1c8967a92ae26",
+	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05"
 }
 		},
 		{
@@ -446,41 +446,186 @@
 			}
 		},
 		{
-			"ID": "29f400ef42808fbc6ada999a2c10096f",
-			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
-			"PrefabObjectID": "d2dea6bb49e15e64a29ddf8ffa0c7488",
+			"ID": "5860ea424cf3485a92ada09ae3715995",
+			"TypeName": "FlaxEngine.EmptyActor",
 			"ParentID": "00b5bdc9472a4e5ebbae5b9a5408dad1",
+			"Name": "Enemy Manager"
+		},
+		{
+			"ID": "046ef43148a22be5eec5ca9370d91d59",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "5860ea424cf3485a92ada09ae3715995",
+			"Name": "Enemy",
+			"Transform": {
+				"Translation": {
+					"X": 360.0,
+					"Y": 0.0,
+					"Z": 210.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.8036062717437744,
+					"Z": 0.0,
+					"W": 0.5951612591743469
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"Mass": 1308.9970703125,
+			"Constraints": 40
+		},
+		{
+			"ID": "00ae01a04092646150704a8b3c0e82fa",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "046ef43148a22be5eec5ca9370d91d59",
+			"Name": "Player Collider",
 			"Transform": {
 				"Translation": {
 					"X": 0.0,
-					"Y": 130.0,
-					"Z": 200.0
+					"Y": 50.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
 				}
-			}
+			},
+			"Radius": 25.0,
+			"Height": 50.0
 		},
 		{
-			"ID": "c26ee22744993741e1822e86ab5678b2",
-			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
-			"PrefabObjectID": "4b1b6aeb407bbfae065649b464b16a1e",
-			"ParentID": "29f400ef42808fbc6ada999a2c10096f",
-			"V": {
-	"hitBoxSize": {
-		"X": 30.0,
-		"Y": 30.0,
-		"Z": 50.0
-	}
-}
+			"ID": "2a03cb2b4957e9c3dd8b98ad91655970",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "046ef43148a22be5eec5ca9370d91d59",
+			"Name": "Graphics"
 		},
 		{
-			"ID": "3106f55f4ada5c326b8d429cecb03e41",
-			"PrefabID": "b311c1114c8476881ccd51aaef93bf8c",
-			"PrefabObjectID": "8a4e10df46d9738fbc85459bb788f34b",
-			"ParentID": "29f400ef42808fbc6ada999a2c10096f",
+			"ID": "4225d29a43fc74f0a7003e86119d7c54",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2a03cb2b4957e9c3dd8b98ad91655970",
+			"Name": "Capsule",
+			"Model": "3f82e57744f57c28285150b646ad2198",
 			"Buffer": {
 				"Entries": [
-					{}
+					{
+						"Material": "0abe82ec455ef8538ae0d0a3bdb20119",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
 				]
 			}
+		},
+		{
+			"ID": "2cb110a74467f4ebe162e3bcfa86b339",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2a03cb2b4957e9c3dd8b98ad91655970",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 60.0,
+					"Z": 20.0
+				},
+				"Scale": {
+					"X": 0.46252867579460146,
+					"Y": 0.3999747037887573,
+					"Z": 0.3082524538040161
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "541d392b42d37be8fffe22b67f281bc6",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5a0f84fd41bae62bff1540a6d638eeb4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2a03cb2b4957e9c3dd8b98ad91655970",
+			"Name": "Spawn Point",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 60.0
+				},
+				"Scale": {
+					"X": 0.20000000298023225,
+					"Y": 0.20000000298023225,
+					"Z": 0.20000000298023225
+				}
+			},
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4f578e1c4b2d1acdfda4cea71fc7a5a4",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "046ef43148a22be5eec5ca9370d91d59",
+			"Name": "State Machine"
+		},
+		{
+			"ID": "a694599b4bf86e8d78efd58a09fb4c6c",
+			"TypeName": "Game.StateMachine",
+			"ParentID": "4f578e1c4b2d1acdfda4cea71fc7a5a4",
+			"V": {}
+		},
+		{
+			"ID": "8f123d8e42d3de87130b9a81ff79bdd5",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4f578e1c4b2d1acdfda4cea71fc7a5a4",
+			"Name": "State Idle"
+		},
+		{
+			"ID": "05e315824633ceb072f50d87ad8b08c1",
+			"TypeName": "Game.EnemyState_Idle",
+			"ParentID": "8f123d8e42d3de87130b9a81ff79bdd5",
+			"V": {}
+		},
+		{
+			"ID": "ed5c301e4c8ef7ed69620da931de7752",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4f578e1c4b2d1acdfda4cea71fc7a5a4",
+			"Name": "State Movement"
+		},
+		{
+			"ID": "03a675974dd3b5c7f6c7f294d4be3374",
+			"TypeName": "Game.EnemyState_Movement",
+			"ParentID": "ed5c301e4c8ef7ed69620da931de7752",
+			"V": {}
+		},
+		{
+			"ID": "000401f140e09ee9d7bce4924114dd43",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4f578e1c4b2d1acdfda4cea71fc7a5a4",
+			"Name": "State Attacking"
+		},
+		{
+			"ID": "57f3ed28446242707c0dc3b41a77e2fe",
+			"TypeName": "Game.EnemyState_Attacking",
+			"ParentID": "000401f140e09ee9d7bce4924114dd43",
+			"V": {}
 		}
 	]
 }

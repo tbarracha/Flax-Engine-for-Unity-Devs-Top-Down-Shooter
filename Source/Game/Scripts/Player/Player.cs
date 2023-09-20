@@ -3,16 +3,11 @@ using FlaxEngine;
 
 namespace Game
 {
-    public class Player : Script
+    public class Player : Agent
     {
-        [Header("Properties")]
-        public RigidBody rigidBody;
-        public Collider collider;
+        [Header("Mouse Pick")]   
         public Actor pickActor;
         public Collider pickCollider;
-
-        [Header("Movement")]
-        public float speed = 5;             // in centimeters
 
         [Header("Shooting")]
         public Prefab projectilePrefab;
@@ -25,12 +20,9 @@ namespace Game
         float fireDelay, timeInCooldown;
         ShootingState shootingState;
 
-        public float Speed => speed * 100;
-
         public override void OnStart()
         {
-            rigidBody = Actor.As<RigidBody>();
-            collider = Actor.GetChild<Collider>();
+            base.OnStart();
 
             fireDelay = 1 / fireRate;
         }

@@ -19,9 +19,9 @@
 -nowarn:8632
 -nowarn:1591
 /optimize-
-/out:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.dll"
-/doc:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.xml"
-/generatedfilesout:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Cache/Intermediate\GameEditorTarget\Windows\x64\Development"
+/out:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.dll"
+/doc:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Binaries\GameEditorTarget\Windows\x64\Development\Game.CSharp.xml"
+/generatedfilesout:"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache/Intermediate\GameEditorTarget\Windows\x64\Development"
 /define:BUILD_DEVELOPMENT;PLATFORM_WINDOWS;FLAX_1;FLAX_1_6;FLAX_1_1_OR_NEWER;FLAX_1_2_OR_NEWER;FLAX_1_3_OR_NEWER;FLAX_1_4_OR_NEWER;FLAX_1_5_OR_NEWER;FLAX_1_6_OR_NEWER;FLAX;FLAX_ASSERTIONS;FLAX_EDITOR;USE_NETCORE;NET7_0;NET7_0_OR_GREATER;NET6_0;NET6_0_OR_GREATER;NET5_0;NET5_0_OR_GREATER;NET;NETCOREAPP3_1;NETCOREAPP3_1_OR_GREATER;NETCOREAPP3_0;NETCOREAPP3_0_OR_GREATER;NETCOREAPP2_2;NETCOREAPP2_2_OR_GREATER;NETCOREAPP2_1;NETCOREAPP2_1_OR_GREATER;NETCOREAPP2_0;NETCOREAPP2_0_OR_GREATER;NETCOREAPP1_1;NETCOREAPP1_1_OR_GREATER;NETCOREAPP1_0;NETCOREAPP1_0_OR_GREATER;NETCOREAPP
 /reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\mscorlib.dll"
 /reference:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\ref\net7.0\netstandard.dll"
@@ -72,9 +72,11 @@
 /reference:"C:\Program Files (x86)\Flax\Flax_master\Source\Platforms\DotNet\Newtonsoft.Json.dll"
 /analyzer:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\analyzers\dotnet\cs\Microsoft.Interop.LibraryImportGenerator.dll"
 /analyzer:"C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.11\analyzers\dotnet\cs\Microsoft.Interop.SourceGeneration.dll"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Source\Game.Gen.cs"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Source\Game\Scripts\Player\CameraManager.cs"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Source\Game\Scripts\Player\Player.cs"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Source\Game\Scripts\Player\ShootingState.cs"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Source\Game\Scripts\Projectiles\Projectile.cs"
-"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\Game.CSharp.AssemblyAttributes.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game.Gen.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Agent\Agent.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Enemy\Enemy.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Player\CameraManager.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Player\Player.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Player\ShootingState.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game\Scripts\Projectiles\Projectile.cs"
+"C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache/Intermediate\GameEditorTarget\Windows\x64\Development\Game.CSharp.AssemblyAttributes.cs"

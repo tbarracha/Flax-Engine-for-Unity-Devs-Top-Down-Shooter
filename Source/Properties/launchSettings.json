@@ -2,9 +2,9 @@
   "profiles": {
     "Game": {
       "commandName": "Executable",
-      "workingDirectory": "C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1",
+      "workingDirectory": "C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Devs-Top-Down-Shooter",
       "executablePath": "C:\\Program Files (x86)\\Flax\\Flax_master\\Binaries\\Editor\\Win64\\Development\\FlaxEditor.exe",
-      "commandLineArgs": "-project \"C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Developers---Top-Down-Shooter---1\"",
+      "commandLineArgs": "-project \"C:\\Users\\taigo\\OneDrive\\Documentos\\GitHub\\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\"",
       "nativeDebugging": false
     }
   }
