@@ -10,6 +10,7 @@ namespace Game
         public EnemyState       enemyState;
         public Player           player;
         public NavmeshAgent     navAgent;
+        public ShootComponent   shootComponent;
         public float attackDistance = 7; // in centimeters
 
         float AttackDistance => attackDistance * 100;

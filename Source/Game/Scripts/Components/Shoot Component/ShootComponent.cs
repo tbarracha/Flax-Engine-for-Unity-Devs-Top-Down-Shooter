@@ -14,8 +14,6 @@ namespace Game
         float fireDelay, timeInCooldown;
         [ShowInEditor] ShootingState shootingState;
 
-        [HideInEditor] public readonly FlaxEvent<Projectile> OnProjectileSpawned = new FlaxEvent<Projectile>();
-
         public void HandleShooting(bool isShooting)
         {
             switch (shootingState)
@@ -44,9 +42,7 @@ namespace Game
         // Spawn Projectile
         void ShootingState_Shooting()
         {
-            Projectile projectile = PrefabManager.SpawnPrefab(projectilePrefab, spawnPoint.Position, spawnPoint.Orientation).GetScript<Projectile>();
-            OnProjectileSpawned?.Invoke(projectile);
-
+            Actor projectile = PrefabManager.SpawnPrefab(projectilePrefab, spawnPoint.Position, spawnPoint.Orientation);
             ChangeShootingState(ShootingState.Cooldown);
         }
 

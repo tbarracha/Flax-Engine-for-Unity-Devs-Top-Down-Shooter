@@ -1,7 +1,6 @@
 ﻿
 using FlaxEngine;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Game
 {
@@ -77,47 +76,6 @@ namespace Game
             }
 
             return foundScripts.ToArray();
-        }
-
-
-        /// <summary>
-        /// Checks if an actor has any of the specified tags from an array of Tag objects.
-        /// </summary>
-        public static bool HasAnyTag(this Actor actor, Tag[] tags)
-        {
-            if (actor == null || tags == null || tags.Length == 0)
-                return false;
-
-            if (actor.HasTag() == false)
-                return false;
-
-            foreach (Tag tag in tags)
-            {
-                if (actor.HasTag(tag))
-                    return true;
-            }
-
-            return false;
-        }
-
-        /// <summary>
-        /// Checks if an actor has any of the specified tags from an array of string Tags.
-        /// </summary>
-        public static bool HasAnyTag(this Actor actor, string[] tags)
-        {
-            if (actor == null || tags == null || tags.Length == 0)
-                return false;
-
-            if (actor.HasTag() == false)
-                return false;
-
-            foreach (string tag in tags)
-            {
-                if (actor.HasTag(tag))
-                    return true;
-            }
-
-            return false;
         }
     }
 }

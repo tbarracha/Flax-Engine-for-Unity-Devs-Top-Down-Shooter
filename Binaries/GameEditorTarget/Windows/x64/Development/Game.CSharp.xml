@@ -40,114 +40,121 @@
             Finds all script components of type T in the children hierarchy of the provided actor.
             </summary>
         </member>
-        <member name="M:Game.Extensions.HasAnyTag(FlaxEngine.Actor,FlaxEngine.Tag[])">
+        <member name="T:Event">
             <summary>
-            Checks if an actor has any of the specified tags from an array of Tag objects.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="M:Game.Extensions.HasAnyTag(FlaxEngine.Actor,System.String[])">
-            <summary>
-            Checks if an actor has any of the specified tags from an array of string Tags.
-            </summary>
-        </member>
-        <member name="T:FlaxEvent">
-            <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
-            </summary>
-        </member>
-        <member name="M:FlaxEvent.AddListener(System.Action)">
+        <member name="M:Event.AddListener(System.Action)">
             <summary>
             Subscribes a class method to this event
             </summary>
         </member>
-        <member name="M:FlaxEvent.RemoveListener(System.Action)">
+        <member name="M:Event.RemoveListener(System.Action)">
             <summary>
             Removes the subscription of a class method to this event
             </summary>
         </member>
-        <member name="M:FlaxEvent.ClearAllListeners">
+        <member name="M:Event.ClearAllListeners">
             <summary>
             Removes all subscribers of this event
             </summary>
         </member>
-        <member name="T:FlaxEvent`1">
+        <member name="T:Event`1">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`2">
+        <member name="T:Event`2">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`3">
+        <member name="T:Event`3">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`4">
+        <member name="T:Event`4">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`5">
+        <member name="T:Event`5">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`6">
+        <member name="T:Event`6">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`7">
+        <member name="T:Event`7">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`8">
+        <member name="T:Event`8">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`9">
+        <member name="T:Event`9">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`10">
+        <member name="T:Event`10">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`11">
+        <member name="T:Event`11">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`12">
+        <member name="T:Event`12">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`13">
+        <member name="T:Event`13">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`14">
+        <member name="T:Event`14">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`15">
+        <member name="T:Event`15">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
-        <member name="T:FlaxEvent`16">
+        <member name="T:Event`16">
             <summary>
-            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
+            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
+            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
             </summary>
         </member>
         <member name="M:Randomize.Range(System.Int32,System.Int32)">

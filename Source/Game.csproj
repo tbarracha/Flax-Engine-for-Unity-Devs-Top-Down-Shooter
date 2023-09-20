@@ -245,7 +245,6 @@
   <ItemGroup>
     <Compile Include="Game.Gen.cs" />
     <Compile Include="Game\Scripts\Agent\Agent.cs" />
-    <Compile Include="Game\Scripts\Components\HealthComponent.cs" />
     <Compile Include="Game\Scripts\Components\Navmesh Agent\NavmeshAgent.cs" />
     <Compile Include="Game\Scripts\Components\Navmesh Agent\NavmeshMoveType.cs" />
     <Compile Include="Game\Scripts\Components\Shoot Component\ShootComponent.cs" />
@@ -255,8 +254,8 @@
     <Compile Include="Game\Scripts\Player\CameraManager.cs" />
     <Compile Include="Game\Scripts\Player\Player.cs" />
     <Compile Include="Game\Scripts\Projectiles\Projectile.cs" />
+    <Compile Include="Game\Scripts\Utilities\Event.cs" />
     <Compile Include="Game\Scripts\Utilities\Extensions.cs" />
-    <Compile Include="Game\Scripts\Utilities\FlaxEvent.cs" />
     <Compile Include="Game\Scripts\Utilities\Gizmos.cs" />
     <Compile Include="Game\Scripts\Utilities\Randomize.cs" />
     <Compile Visible="false" Include="C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache/Intermediate\GameEditorTarget\Windows\x64\Debug\Game\Game.Bindings.Gen.cs" />

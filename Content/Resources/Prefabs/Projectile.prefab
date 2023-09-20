@@ -19,11 +19,7 @@
 		"ID": "4b1b6aeb407bbfae065649b464b16a1e",
 		"TypeName": "Game.Projectile",
 		"ParentID": "d2dea6bb49e15e64a29ddf8ffa0c7488",
-		"V": {
-	"impactLayers": {
-		"Mask": 1
-	}
-}
+		"V": {}
 	},
 	{
 		"ID": "8a4e10df46d9738fbc85459bb788f34b",
