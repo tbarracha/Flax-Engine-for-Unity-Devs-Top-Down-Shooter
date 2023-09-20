@@ -38,7 +38,7 @@ namespace Game
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
-            direction = new Vector3(horizontal, 0, vertical);
+            direction = new Vector3(horizontal, 0, vertical).Normalized;
 
             rigidBody.LinearVelocity = direction * Speed;
         }

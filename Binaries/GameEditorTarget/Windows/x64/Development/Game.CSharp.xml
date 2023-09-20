@@ -9,6 +9,11 @@
             NavmeshAgent is a script/component that allows to set the destination and calculation of a path of an AI agent inside a Navmesh
             </summary>
         </member>
+        <member name="M:Game.NavmeshAgent.SetDestination(FlaxEngine.Vector3,System.Boolean)">
+            <summary>
+            Attempts to calculate a path, returning true if one is found and false if none was found
+            </summary>
+        </member>
         <member name="M:Game.NavmeshAgent.MoveAlongPath">
             <summary>
             Moves Actor along path.

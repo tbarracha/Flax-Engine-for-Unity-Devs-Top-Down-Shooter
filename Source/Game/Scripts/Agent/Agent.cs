@@ -11,8 +11,9 @@ namespace Game
         public Collider     collider;
 
         [Header("Movement")]
-        public float speed  = 5;             // in centimeters
-        public int damage   = 1;
+        public float speed      = 5;             // in centimeters
+        public float lookSpeed  = 5;             // in centimeters
+        public int damage       = 1;
 
         protected float Speed => speed * 100;
 
