@@ -10,6 +10,10 @@ namespace Game
         public int  damage          = 1;
         public Vector3 hitBoxSize   = Vector3.One * 10;
 
+        [Header("Impact Layers")]
+        public LayersMask   impactLayers;
+        public string[]     impactTags;
+
         float time;
 
         public override void OnUpdate()
@@ -31,15 +35,32 @@ namespace Game
         {
             Collider[] colliders = new Collider[0];
             
-            if (Physics.OverlapBox(Actor.Position, hitBoxSize * .5f, out colliders, Actor.Orientation))
+            if (Physics.OverlapBox(Actor.Position, hitBoxSize * .5f, out colliders, Actor.Orientation, impactLayers))
             {
                 for (int i = 0; i < colliders.Length; i++)
                 {
-                    Debug.Log("Hit Collider: " + colliders[i]);
+                    Collider collider = colliders[i];
+                    Debug.Log("Hit Collider: " + collider);
+
+                    DamageCollider(collider);
                 }
 
                 Destroy(Actor);
             }
+        }
+
+        void DamageCollider(Collider collider)
+        {
+            if (collider.HasAnyTag(impactTags) == false)
+                return;
+
+            HealthComponent health = collider.FindScript<HealthComponent>();
+
+            if (health == null)
+                health = collider.FindScriptInParent<HealthComponent>();
+
+            if (health != null)
+                health.ApplyDamage(damage);
         }
 
         // same Unity's OnDrawGizmos()

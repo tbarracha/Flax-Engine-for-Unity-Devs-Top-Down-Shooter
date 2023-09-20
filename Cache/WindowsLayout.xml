@@ -1,6 +1,6 @@
 ﻿<DockPanelLayout Version="4">
 	<MainWindow IsMaximized="True">
-		<Bounds X="-12" Y="-12" Width="2584" Height="1380" />
+		<Bounds X="0" Y="0" Width="2560" Height="1356" />
 	</MainWindow>
 	<MasterPanel SelectedTab="0">
 		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
@@ -14,7 +14,7 @@
 				<Window Typename="::FlaxEditor.Windows.ToolboxWindow" />
 			</Panel>
 		</Panel>
-		<Panel DockState="9" SplitterValue="0.41894126" SelectedTab="0">
+		<Panel DockState="9" SplitterValue="0.41894126" SelectedTab="1">
 			<Window Typename="::FlaxEditor.Windows.ContentWindow">
 				<Data Split="0.2" Scale="1" ShowFileExtensions="False" ShowEngineFiles="True" ShowPluginsFiles="True" ShowAllFiles="True" ViewType="Tiles" />
 			</Window>
