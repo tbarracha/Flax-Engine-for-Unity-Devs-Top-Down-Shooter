@@ -1,5 +1,5 @@
-# Flax Engine for Unity Developers - Top Down Shooter - 2 - Projectiles
- In this tutorial we learn how to create prefabs and deal with its collision with Physics.OverlapBox()
+# Flax Engine for Unity Developers - Top Down Shooter - 3 - Enemy Ai & Navigation
+ In this tutorial we check my component based solution for shooting and Navmesh Navigation in the Flax Engine
 
 Video tutorial:
 [https://www.youtube.com/watch?v=Q-gDk-jX0mc](https://youtu.be/_Wr0G9g6CuQ)
