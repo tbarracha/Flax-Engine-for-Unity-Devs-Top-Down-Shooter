@@ -445,6 +445,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Tag": "Player",
 			"Mass": 1308.9970703125,
 			"Constraints": 40
 		},
@@ -459,6 +460,15 @@
 	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15",
 	"rigidBody": "6e00fcf0456af2324ac1c8967a92ae26",
 	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05"
+}
+		},
+		{
+			"ID": "c0d8f91b421d829f4b045d9a9fc42e01",
+			"TypeName": "Game.ShootComponent",
+			"ParentID": "6e00fcf0456af2324ac1c8967a92ae26",
+			"V": {
+	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
+	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15"
 }
 		},
 		{
@@ -480,6 +490,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Tag": "Player",
 			"Radius": 25.0,
 			"Height": 50.0
 		},
@@ -593,6 +604,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Tag": "Enemy",
 			"Mass": 1308.9970703125,
 			"Constraints": 40
 		},
@@ -604,8 +616,7 @@
 	"navAgent": "4a285d814eeefbde3339108718d0a0b4",
 	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
 	"rigidBody": "16231a424581830cb326ab9d5ed466e7",
-	"collider": "6b34dd8d4b97dad8fd754182118bf598",
-	"speed": 2.0
+	"collider": "6b34dd8d4b97dad8fd754182118bf598"
 }
 		},
 		{
@@ -648,6 +659,7 @@
 				}
 			},
 			"StaticFlags": 0,
+			"Tag": "Enemy",
 			"Radius": 25.0,
 			"Height": 50.0
 		},
