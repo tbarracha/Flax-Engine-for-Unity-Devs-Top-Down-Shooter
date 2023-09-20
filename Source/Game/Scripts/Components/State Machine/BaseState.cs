@@ -11,19 +11,22 @@ namespace Game
         [ShowInEditor] protected float timeInState;
 
 
-        public void EnterState()
+        public virtual void EnterState()
         {
             timeInState = 0;
         }
 
-        public void ExitState()
+        public virtual void ExitState()
         {
 
         }
 
-        public void UpdateState()
+        public virtual void UpdateState()
         {
             timeInState += Time.DeltaTime;
         }
+
+        public void ChangeState(int stateIndex)
+            => stateMachine.ChangeState(stateIndex);
     }
 }

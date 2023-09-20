@@ -4,5 +4,16 @@
         <name>Game.CSharp</name>
     </assembly>
     <members>
+        <member name="T:Game.NavmeshAgent">
+            <summary>
+            NavmeshAgent is a script/component that allows to set the destination and calculation of a path of an AI agent inside a Navmesh
+            </summary>
+        </member>
+        <member name="M:Game.NavmeshAgent.MoveAlongPath">
+            <summary>
+            Moves Actor along path.
+            <para> Returns true if agent is moving, and false if there is no path or if the agent has reached its destination </para> 
+            </summary>
+        </member>
     </members>
 </doc>

@@ -1,0 +1,50 @@
+{
+	"ID": "2c54e90747600b6c7b1423b3ecf7a007",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6344,
+	"Data": [
+	{
+		"ID": "91dde36240c322397984d4b22d2d48d4",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Obstacle",
+		"Transform": {
+			"Scale": {
+				"X": 2.0,
+				"Y": 2.0,
+				"Z": 2.0
+			}
+		}
+	},
+	{
+		"ID": "f46201164f353a28d70a3e800d513bf4",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "91dde36240c322397984d4b22d2d48d4",
+		"Name": "Obstacle Model",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 50.0,
+				"Z": 0.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "010fd1fe4d2a8bcdfde5238331393735",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "c875094144062b1472f11382b78d5c42",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "f46201164f353a28d70a3e800d513bf4",
+		"Name": "BoxCollider"
+	}
+]
+}

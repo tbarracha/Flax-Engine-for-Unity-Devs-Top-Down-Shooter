@@ -245,6 +245,7 @@
   <ItemGroup>
     <Compile Include="Game.Gen.cs" />
     <Compile Include="Game\Scripts\Agent\Agent.cs" />
+    <Compile Include="Game\Scripts\Components\NavmeshAgent.cs" />
     <Compile Include="Game\Scripts\Components\State Machine\BaseState.cs" />
     <Compile Include="Game\Scripts\Components\State Machine\StateMachine.cs" />
     <Compile Include="Game\Scripts\Enemy\Enemy.cs" />
