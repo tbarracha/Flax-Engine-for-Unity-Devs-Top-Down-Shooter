@@ -33,9 +33,9 @@ namespace Game
 
         protected void HandleMovement()
         {
-            horizontal = Input.GetAxisRaw("Horizontal");
-            vertical = Input.GetAxisRaw("Vertical");
-            direction = new Vector3(horizontal, 0, vertical);
+            horizontal    = Input.GetAxisRaw("Horizontal");
+            vertical      = Input.GetAxisRaw("Vertical");
+            direction     = new Vector3(horizontal, 0, vertical).Normalized;
 
             rigidBody.LinearVelocity = direction * Speed;
         }
