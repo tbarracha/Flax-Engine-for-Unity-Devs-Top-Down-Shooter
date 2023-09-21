@@ -1,7 +1,7 @@
 {
 	"ID": "66f6b8f440c821d5ef9c14a1b7c1f613",
 	"TypeName": "FlaxEngine.Prefab",
-	"EngineBuild": 6344,
+	"EngineBuild": 6345,
 	"Data": [
 	{
 		"ID": "132e76d4491ba8f9b7914e8b2387ce4f",
@@ -36,7 +36,7 @@
 		"Buffer": {
 			"Entries": [
 				{
-					"Material": "23b087044b7d27b01963f0adf511819c",
+					"Material": "010fd1fe4d2a8bcdfde5238331393735",
 					"ShadowsMode": 3,
 					"Visible": true,
 					"ReceiveDecals": true
