@@ -13,7 +13,6 @@ namespace Game
         public ShootComponent   shootComponent;
 
         [Header("Agent Properties")]
-        public int health       = 10;
         public int damage       = 1;
         public float speed      = 5;             // in centimeters
         public float lookSpeed  = 5;             // in centimeters
@@ -32,7 +31,6 @@ namespace Game
             if (collider == null)
                 collider    = Actor.GetChild<Collider>();
 
-            healthComponent.SetHealthValues(health, health);
             healthComponent.OnDeath.AddListener(Death);
             shootComponent.OnProjectileSpawned.AddListener(SetProjectileProperties);
         }
@@ -41,12 +39,11 @@ namespace Game
         {
             projectile.impactLayers = impactLayers;
             projectile.damageTags   = damageTags;
-            projectile.damage       = damage;
         }
 
         protected virtual void Death()
         {
-            Debug.Log(Actor.Name + ", has died!");
+            
         }
     }
 }

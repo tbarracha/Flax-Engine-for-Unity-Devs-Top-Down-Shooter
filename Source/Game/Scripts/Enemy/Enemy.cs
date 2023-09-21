@@ -95,8 +95,7 @@ namespace Game
 
         protected override void Death()
         {
-            base.Death();
-
+            Debug.Log(Actor.Name + ", has died!");
             Destroy(Actor);
         }
 
