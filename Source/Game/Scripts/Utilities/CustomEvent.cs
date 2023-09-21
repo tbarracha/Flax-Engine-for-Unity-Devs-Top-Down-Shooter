@@ -3,7 +3,7 @@
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent
+public class CustomEvent
 {
     private event Action action = delegate { };
 
@@ -42,7 +42,7 @@ public class FlaxEvent
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T>
+public class CustomEvent<T>
 {
     private event Action<T> action = delegate { };
 
@@ -69,7 +69,7 @@ public class FlaxEvent<T>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2>
+public class CustomEvent<T1, T2>
 {
     private event Action<T1, T2> action = delegate { };
 
@@ -96,7 +96,7 @@ public class FlaxEvent<T1, T2>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3>
+public class CustomEvent<T1, T2, T3>
 {
     private event Action<T1, T2, T3> action = delegate { };
 
@@ -123,7 +123,7 @@ public class FlaxEvent<T1, T2, T3>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4>
+public class CustomEvent<T1, T2, T3, T4>
 {
     private event Action<T1, T2, T3, T4> action = delegate { };
 
@@ -151,7 +151,7 @@ public class FlaxEvent<T1, T2, T3, T4>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5>
+public class CustomEvent<T1, T2, T3, T4, T5>
 {
     private event Action<T1, T2, T3, T4, T5> action = delegate { };
 
@@ -179,7 +179,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6>
+public class CustomEvent<T1, T2, T3, T4, T5, T6>
 {
     private event Action<T1, T2, T3, T4, T5, T6> action = delegate { };
 
@@ -207,7 +207,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7> action = delegate { };
 
@@ -235,7 +235,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8> action = delegate { };
 
@@ -263,7 +263,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9> action = delegate { };
 
@@ -291,7 +291,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> action = delegate { };
 
@@ -319,7 +319,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> action = delegate { };
 
@@ -347,7 +347,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> action = delegate { };
 
@@ -375,7 +375,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> action = delegate { };
 
@@ -403,7 +403,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> action = delegate { };
 
@@ -431,7 +431,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> action = delegate { };
 
@@ -459,7 +459,7 @@ public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T
 /// <summary>
 /// Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
 /// </summary>
-public class FlaxEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+public class CustomEvent<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
 {
     private event Action<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> action = delegate { };
 
