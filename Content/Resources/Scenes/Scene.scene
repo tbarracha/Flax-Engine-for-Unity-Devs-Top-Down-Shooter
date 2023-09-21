@@ -637,7 +637,6 @@
 	"collider": "6b34dd8d4b97dad8fd754182118bf598",
 	"healthComponent": "5f79cde945bf47583a193f953d1e5b95",
 	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
-	"health": 5,
 	"speed": 3.0,
 	"impactLayers": {
 		"Mask": 1
@@ -674,6 +673,8 @@
 			"TypeName": "Game.HealthComponent",
 			"ParentID": "16231a424581830cb326ab9d5ed466e7",
 			"V": {
+	"maxHealth": 5,
+	"health": 5,
 	"OnHealthChanged": {},
 	"OnHealthPercentChanged": {},
 	"OnHealthValuesChanged": {},
