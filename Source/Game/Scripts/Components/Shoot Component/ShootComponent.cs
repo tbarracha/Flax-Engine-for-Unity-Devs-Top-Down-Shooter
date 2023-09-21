@@ -1,6 +1,7 @@
 ﻿
 
 using FlaxEngine;
+using System.Collections.Generic;
 
 namespace Game
 {
@@ -9,10 +10,13 @@ namespace Game
         [Header("Shooting")]
         public Prefab projectilePrefab;
         public Actor spawnPoint;
-        public float fireRate = 3;          // projectiles per second
+        public float fireRate = 3;              // projectiles per second
+        public List<Projectile> projectiles     = new List<Projectile>();
 
         float fireDelay, timeInCooldown;
         [ShowInEditor] ShootingState shootingState;
+
+        [HideInEditor] public readonly CustomEvent<Projectile> OnProjectileSpawned = new CustomEvent<Projectile>();
 
         public void HandleShooting(bool isShooting)
         {
@@ -42,7 +46,12 @@ namespace Game
         // Spawn Projectile
         void ShootingState_Shooting()
         {
-            Actor projectile = PrefabManager.SpawnPrefab(projectilePrefab, spawnPoint.Position, spawnPoint.Orientation);
+            Projectile projectile = PrefabManager.SpawnPrefab(projectilePrefab, spawnPoint.Position, spawnPoint.Orientation).GetScript<Projectile>();
+            projectiles.Add(projectile);
+
+            OnProjectileSpawned?.Invoke(projectile);
+            projectile.OnProjectileDestroyed.AddListener(ProjectileDestroyed);
+
             ChangeShootingState(ShootingState.Cooldown);
         }
 
@@ -63,6 +72,12 @@ namespace Game
 
             if (shootingState == ShootingState.Cooldown)
                 timeInCooldown = 0;
+        }
+
+        void ProjectileDestroyed(Projectile projectile)
+        {
+            if (projectiles.Contains(projectile))
+                projectiles.Remove(projectile);
         }
     }
 }

@@ -12,6 +12,8 @@ namespace Game
 
         float time;
 
+        public readonly CustomEvent<Projectile> OnProjectileDestroyed = new CustomEvent<Projectile>();
+
         public override void OnUpdate()
         {
             HandleMovement();
@@ -40,6 +42,11 @@ namespace Game
 
                 Destroy(Actor);
             }
+        }
+
+        public override void OnDestroy()
+        {
+            OnProjectileDestroyed?.Invoke(this);
         }
 
         // same Unity's OnDrawGizmos()

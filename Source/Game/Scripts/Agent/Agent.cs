@@ -7,8 +7,9 @@ namespace Game
     public class Agent : Script
     {
         [Header("Properties")]
-        public RigidBody    rigidBody;
-        public Collider     collider;
+        public RigidBody        rigidBody;
+        public Collider         collider;
+        public ShootComponent   shootComponent;
 
         [Header("Movement")]
         public float speed      = 5;             // in centimeters

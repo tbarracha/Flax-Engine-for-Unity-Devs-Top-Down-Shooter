@@ -3,7 +3,7 @@
   "Platform": "Windows",
   "Architecture": "x64",
   "Configuration": "Development",
-  "HotReloadPostfix": ".HotReload.1",
+  "HotReloadPostfix": ".HotReload.3",
   "BinaryModules": [
     {
       "Name": "Game",

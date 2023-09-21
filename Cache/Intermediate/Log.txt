@@ -1,30 +1,29 @@
-[00:00:008] Flax.Build 1.0.0
-[00:00:008]   Arguments: -log -genproject
-[00:00:008]   Workspace: C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter
-[00:00:008]   Engine: C:\Program Files (x86)\Flax\Flax_master
-[00:00:008]   .NET 7.0.11
-[00:00:012] Loading project file from "C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.flaxproj"...
-[00:00:038] Loading project file from "C:\Program Files (x86)\Flax\Flax_master\Flax.flaxproj"...
-[00:00:039] Loaded project Flax, version 1.6.6344
-[00:00:039] Loaded project FlaxForUnityDevs, version 1.0
-[00:00:056] Engine build version: 1.6.6344
-[00:01:088] Assembler time: 1.009314s
-[00:01:092] Generating project files...
-[00:01:099] Missing Android SDK. Cannot build for Android platform.
-[00:01:099] Missing Linux Toolchain. Cannot build for Linux platform.
-[00:01:110] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
-[00:01:112] Missing Windows SDK. Cannot build for Windows platform.
-[00:01:134] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
-[00:01:134] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
-[00:01:140] Using .NET SDK 7.0.401, runtime 7.0.11 (C:\Program Files\dotnet\)
-[00:01:141]   - Host Runtime for Windows x64
-[00:01:141]   - Host Runtime for Windows x86
-[00:01:141]   - Host Runtime for Windows ARM64
-[00:01:321] Game -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game.csproj
-[00:01:324] Saved file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game.csproj
-[00:01:325] Project BuildScripts -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache\Projects\BuildScripts.csproj
-[00:01:325] Skipped saving file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache\Projects\BuildScripts.csproj
-[00:01:325] Solution -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.sln
-[00:01:335] Saved file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.sln
-[00:01:336] Total time: 00:00:01.3536161
-[00:01:336] End.
+[00:00:006] Flax.Build 1.0.0
+[00:00:006]   Arguments: -log -genproject
+[00:00:006]   Workspace: C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter
+[00:00:006]   Engine: C:\Program Files (x86)\Flax\Flax_master
+[00:00:006]   .NET 7.0.11
+[00:00:010] Loading project file from "C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.flaxproj"...
+[00:00:032] Loading project file from "C:\Program Files (x86)\Flax\Flax_master\Flax.flaxproj"...
+[00:00:033] Loaded project Flax, version 1.6.6345
+[00:00:033] Loaded project FlaxForUnityDevs, version 1.0
+[00:00:049] Engine build version: 1.6.6345
+[00:00:064] Generating project files...
+[00:00:072] Missing Android SDK. Cannot build for Android platform.
+[00:00:072] Missing Linux Toolchain. Cannot build for Linux platform.
+[00:00:084] Found VisualStudio2022 at C:\Program Files\Microsoft Visual Studio\2022\Community
+[00:00:086] Missing Windows SDK. Cannot build for Windows platform.
+[00:00:116] Missing VULKAN_SDK environment variable. Cannot build Vulkan.
+[00:00:116] Building for Windows without Vulkan rendering backend (Vulkan SDK is missing)
+[00:00:123] Using .NET SDK 7.0.401, runtime 7.0.11 (C:\Program Files\dotnet\)
+[00:00:124]   - Host Runtime for Windows x64
+[00:00:124]   - Host Runtime for Windows x86
+[00:00:124]   - Host Runtime for Windows ARM64
+[00:00:346] Game -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game.csproj
+[00:00:351] Saved file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Source\Game.csproj
+[00:00:352] Project BuildScripts -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache\Projects\BuildScripts.csproj
+[00:00:352] Skipped saving file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\Cache\Projects\BuildScripts.csproj
+[00:00:352] Solution -> C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.sln
+[00:00:363] Saved file to C:\Users\taigo\OneDrive\Documentos\GitHub\Flax-Engine-for-Unity-Devs-Top-Down-Shooter\FlaxForUnityDevs.sln
+[00:00:364] Total time: 00:00:00.3805098
+[00:00:364] End.

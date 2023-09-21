@@ -254,7 +254,7 @@
     <Compile Include="Game\Scripts\Player\CameraManager.cs" />
     <Compile Include="Game\Scripts\Player\Player.cs" />
     <Compile Include="Game\Scripts\Projectiles\Projectile.cs" />
-    <Compile Include="Game\Scripts\Utilities\Event.cs" />
+    <Compile Include="Game\Scripts\Utilities\CustomEvent.cs" />
     <Compile Include="Game\Scripts\Utilities\Extensions.cs" />
     <Compile Include="Game\Scripts\Utilities\Gizmos.cs" />
     <Compile Include="Game\Scripts\Utilities\Randomize.cs" />

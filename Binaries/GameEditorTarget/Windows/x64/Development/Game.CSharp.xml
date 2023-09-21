@@ -40,121 +40,104 @@
             Finds all script components of type T in the children hierarchy of the provided actor.
             </summary>
         </member>
-        <member name="T:Event">
+        <member name="T:CustomEvent">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="M:Event.AddListener(System.Action)">
+        <member name="M:CustomEvent.AddListener(System.Action)">
             <summary>
             Subscribes a class method to this event
             </summary>
         </member>
-        <member name="M:Event.RemoveListener(System.Action)">
+        <member name="M:CustomEvent.RemoveListener(System.Action)">
             <summary>
             Removes the subscription of a class method to this event
             </summary>
         </member>
-        <member name="M:Event.ClearAllListeners">
+        <member name="M:CustomEvent.ClearAllListeners">
             <summary>
             Removes all subscribers of this event
             </summary>
         </member>
-        <member name="T:Event`1">
+        <member name="T:CustomEvent`1">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`2">
+        <member name="T:CustomEvent`2">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`3">
+        <member name="T:CustomEvent`3">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`4">
+        <member name="T:CustomEvent`4">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`5">
+        <member name="T:CustomEvent`5">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`6">
+        <member name="T:CustomEvent`6">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`7">
+        <member name="T:CustomEvent`7">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`8">
+        <member name="T:CustomEvent`8">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`9">
+        <member name="T:CustomEvent`9">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`10">
+        <member name="T:CustomEvent`10">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`11">
+        <member name="T:CustomEvent`11">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`12">
+        <member name="T:CustomEvent`12">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`13">
+        <member name="T:CustomEvent`13">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`14">
+        <member name="T:CustomEvent`14">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`15">
+        <member name="T:CustomEvent`15">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
-        <member name="T:Event`16">
+        <member name="T:CustomEvent`16">
             <summary>
-            Invokeable Event - this class is an Action/Delegate wrapper with usefull methods for easy Event Subscription and Unsubscription
-            <para> Allows for the Invokation of events, removing the need for direct script reference or object cache </para>
+            Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.
             </summary>
         </member>
         <member name="M:Randomize.Range(System.Int32,System.Int32)">

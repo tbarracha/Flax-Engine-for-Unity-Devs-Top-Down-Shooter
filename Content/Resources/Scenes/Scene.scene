@@ -1,7 +1,7 @@
 {
 	"ID": "00b5bdc9472a4e5ebbae5b9a5408dad1",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6344,
+	"EngineBuild": 6345,
 	"Data": [
 		{
 			"ID": "00b5bdc9472a4e5ebbae5b9a5408dad1",
@@ -456,14 +456,13 @@
 			"V": {
 	"pickActor": "8740c7a348804ed706b4b69aeb08d919",
 	"pickCollider": "e749d374468dabf963bc048c8ff5a8dc",
-	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
-	"spawnPoint": "8744ce4e45f05eab32c65bb173546a15",
 	"rigidBody": "6e00fcf0456af2324ac1c8967a92ae26",
-	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05"
+	"collider": "18fe9e2e48abdd1ed75db4b7cec5fc05",
+	"shootComponent": "09f32f57408b4a2958b49a9bd81eb3b9"
 }
 		},
 		{
-			"ID": "c0d8f91b421d829f4b045d9a9fc42e01",
+			"ID": "09f32f57408b4a2958b49a9bd81eb3b9",
 			"TypeName": "Game.ShootComponent",
 			"ParentID": "6e00fcf0456af2324ac1c8967a92ae26",
 			"V": {
@@ -541,7 +540,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "541d392b42d37be8fffe22b67f281bc6",
+						"Material": "dff0fc744c57d63686064fa5199bbb5b",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
@@ -614,9 +613,9 @@
 			"ParentID": "16231a424581830cb326ab9d5ed466e7",
 			"V": {
 	"navAgent": "4a285d814eeefbde3339108718d0a0b4",
-	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
 	"rigidBody": "16231a424581830cb326ab9d5ed466e7",
 	"collider": "6b34dd8d4b97dad8fd754182118bf598",
+	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
 	"speed": 3.0
 }
 		},
@@ -711,7 +710,7 @@
 			"Buffer": {
 				"Entries": [
 					{
-						"Material": "541d392b42d37be8fffe22b67f281bc6",
+						"Material": "dff0fc744c57d63686064fa5199bbb5b",
 						"ShadowsMode": 3,
 						"Visible": true,
 						"ReceiveDecals": true
