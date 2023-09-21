@@ -9,6 +9,7 @@ namespace Game
         [Header("Properties")]
         public RigidBody        rigidBody;
         public Collider         collider;
+        public HealthComponent  healthComponent;
         public ShootComponent   shootComponent;
 
         [Header("Movement")]
