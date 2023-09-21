@@ -4,7 +4,7 @@
 	</MainWindow>
 	<MasterPanel SelectedTab="0">
 		<Window Typename="::FlaxEditor.Windows.EditGameWindow">
-			<Data GridEnabled="True" ShowFpsCounter="False" ShowNavigation="True" NearPlane="8" FarPlane="20000" FieldOfView="60" MovementSpeed="32" OrthographicScale="1" UseOrthographicProjection="False" ViewFlags="122683391" />
+			<Data GridEnabled="True" ShowFpsCounter="False" ShowNavigation="True" NearPlane="8" FarPlane="20000" FieldOfView="60" MovementSpeed="8" OrthographicScale="1" UseOrthographicProjection="False" ViewFlags="122683391" />
 		</Window>
 		<Panel DockState="10" SplitterValue="0.24000001" SelectedTab="0">
 			<Window Typename="::FlaxEditor.Windows.PropertiesWindow">

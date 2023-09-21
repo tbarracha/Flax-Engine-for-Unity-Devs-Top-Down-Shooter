@@ -637,6 +637,7 @@
 	"collider": "6b34dd8d4b97dad8fd754182118bf598",
 	"healthComponent": "5f79cde945bf47583a193f953d1e5b95",
 	"shootComponent": "95ec39b542368d66f53cc48d5192aa04",
+	"health": 5,
 	"speed": 3.0,
 	"impactLayers": {
 		"Mask": 1
@@ -763,6 +764,378 @@
 			"ID": "5f8826294776cae99e65bca1b6d6fb38",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "3802f38f48cfcfe703ed95aa24cde43b",
+			"Name": "Spawn Point",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 60.0
+				},
+				"Scale": {
+					"X": 0.20000000298023225,
+					"Y": 0.20000000298023225,
+					"Z": 0.20000000298023225
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c0365083450bf4417af4689a08985c2d",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "5a96d8484c68e3e34d8186a52a340e80",
+			"Name": "Enemy 0",
+			"Transform": {
+				"Translation": {
+					"X": -710.0,
+					"Y": 0.0,
+					"Z": -820.0
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"StaticFlags": 0,
+			"Tag": "Enemy",
+			"Mass": 1308.9970703125,
+			"Constraints": 40
+		},
+		{
+			"ID": "d439d84042f6d1b169c5ad83de38a941",
+			"TypeName": "Game.Enemy",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"V": {
+	"navAgent": "3161913141f6864f3caab59b094f9c58",
+	"rigidBody": "c0365083450bf4417af4689a08985c2d",
+	"collider": "d71f1ad144c58cf5409a26a11cd67f2c",
+	"healthComponent": "a928b7f9429f387465bde6a084fadcf7",
+	"shootComponent": "802f6f8846a6408853f6c897a7cf1b10",
+	"health": 7,
+	"damage": 2,
+	"speed": 4.0,
+	"impactLayers": {
+		"Mask": 1
+	},
+	"damageTags": [
+		"Player"
+	]
+}
+		},
+		{
+			"ID": "3161913141f6864f3caab59b094f9c58",
+			"TypeName": "Game.NavmeshAgent",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"V": {
+	"actorToMove": "c0365083450bf4417af4689a08985c2d",
+	"moveType": 2,
+	"showPath": true,
+	"pathRadius": 70.0
+}
+		},
+		{
+			"ID": "802f6f8846a6408853f6c897a7cf1b10",
+			"TypeName": "Game.ShootComponent",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"V": {
+	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
+	"spawnPoint": "cbdc439c4577c180a72ab3b73538d962",
+	"fireRate": 2.0,
+	"OnProjectileSpawned": {}
+}
+		},
+		{
+			"ID": "a928b7f9429f387465bde6a084fadcf7",
+			"TypeName": "Game.HealthComponent",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"V": {
+	"maxHealth": 5,
+	"health": 5,
+	"OnHealthChanged": {},
+	"OnHealthPercentChanged": {},
+	"OnHealthValuesChanged": {},
+	"OnDeath": {}
+}
+		},
+		{
+			"ID": "d71f1ad144c58cf5409a26a11cd67f2c",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"Name": "Enemy Collider",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0,
+			"Tag": "Enemy",
+			"Radius": 25.0,
+			"Height": 50.0
+		},
+		{
+			"ID": "0050d1174b9a5efea676e18488e4bbf1",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "c0365083450bf4417af4689a08985c2d",
+			"Name": "Graphics",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "cee92edb46d6566b06d10281860dbf01",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "0050d1174b9a5efea676e18488e4bbf1",
+			"Name": "Capsule",
+			"StaticFlags": 0,
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "59c5776f4a23712eb593e78f9d760fd7",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "354758fd405c04610db473a29c4e5e33",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "0050d1174b9a5efea676e18488e4bbf1",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 60.0,
+					"Z": 20.0
+				},
+				"Scale": {
+					"X": 0.46252867579460146,
+					"Y": 0.3999747037887573,
+					"Z": 0.3082524538040161
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "dff0fc744c57d63686064fa5199bbb5b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cbdc439c4577c180a72ab3b73538d962",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "0050d1174b9a5efea676e18488e4bbf1",
+			"Name": "Spawn Point",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 60.0
+				},
+				"Scale": {
+					"X": 0.20000000298023225,
+					"Y": 0.20000000298023225,
+					"Z": 0.20000000298023225
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "5a96d8484c68e3e34d8186a52a340e80",
+			"Name": "Enemy 1",
+			"Transform": {
+				"Translation": {
+					"X": 770.0,
+					"Y": 0.0,
+					"Z": 760.0
+				},
+				"Scale": {
+					"X": 2.0,
+					"Y": 2.0,
+					"Z": 2.0
+				}
+			},
+			"StaticFlags": 0,
+			"Tag": "Enemy",
+			"Mass": 1308.9970703125,
+			"Constraints": 40
+		},
+		{
+			"ID": "31a3275e4ceabc248f7c04be76892638",
+			"TypeName": "Game.Enemy",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"V": {
+	"navAgent": "9779455a4bc2ed1e44b1cbb020fbfba0",
+	"rigidBody": "d0ffd4c140ffedac8a63fc827ec6b732",
+	"collider": "caf6fed24d2caf60a552c494bb24e3e8",
+	"healthComponent": "dd63ac4f4c6dde0e51422ab15288206b",
+	"shootComponent": "786845074b58c2fd3d8c5eb7ebfdb266",
+	"health": 7,
+	"damage": 2,
+	"speed": 4.0,
+	"impactLayers": {
+		"Mask": 1
+	},
+	"damageTags": [
+		"Player"
+	]
+}
+		},
+		{
+			"ID": "9779455a4bc2ed1e44b1cbb020fbfba0",
+			"TypeName": "Game.NavmeshAgent",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"V": {
+	"actorToMove": "d0ffd4c140ffedac8a63fc827ec6b732",
+	"moveType": 2,
+	"showPath": true,
+	"pathRadius": 70.0
+}
+		},
+		{
+			"ID": "786845074b58c2fd3d8c5eb7ebfdb266",
+			"TypeName": "Game.ShootComponent",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"V": {
+	"projectilePrefab": "b311c1114c8476881ccd51aaef93bf8c",
+	"spawnPoint": "260a67b44fa671d5315ec4af75b4c1f7",
+	"fireRate": 2.0,
+	"OnProjectileSpawned": {}
+}
+		},
+		{
+			"ID": "dd63ac4f4c6dde0e51422ab15288206b",
+			"TypeName": "Game.HealthComponent",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"V": {
+	"maxHealth": 5,
+	"health": 5,
+	"OnHealthChanged": {},
+	"OnHealthPercentChanged": {},
+	"OnHealthValuesChanged": {},
+	"OnDeath": {}
+}
+		},
+		{
+			"ID": "caf6fed24d2caf60a552c494bb24e3e8",
+			"TypeName": "FlaxEngine.CapsuleCollider",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"Name": "Enemy Collider",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 50.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			},
+			"StaticFlags": 0,
+			"Tag": "Enemy",
+			"Radius": 25.0,
+			"Height": 50.0
+		},
+		{
+			"ID": "33176bfb40e07418e7e54198a4bc764b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d0ffd4c140ffedac8a63fc827ec6b732",
+			"Name": "Graphics",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "d0cbeaad49c4288e7bc8b8bc8d36dff4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "33176bfb40e07418e7e54198a4bc764b",
+			"Name": "Capsule",
+			"StaticFlags": 0,
+			"Model": "3f82e57744f57c28285150b646ad2198",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "59c5776f4a23712eb593e78f9d760fd7",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ba8ab07042c722185fbf40ab139f244e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "33176bfb40e07418e7e54198a4bc764b",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 60.0,
+					"Z": 20.0
+				},
+				"Scale": {
+					"X": 0.46252867579460146,
+					"Y": 0.3999747037887573,
+					"Z": 0.3082524538040161
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "dff0fc744c57d63686064fa5199bbb5b",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "260a67b44fa671d5315ec4af75b4c1f7",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "33176bfb40e07418e7e54198a4bc764b",
 			"Name": "Spawn Point",
 			"Transform": {
 				"Translation": {
