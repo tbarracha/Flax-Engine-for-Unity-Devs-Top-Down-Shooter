@@ -11,11 +11,11 @@ namespace Game
         [ShowInEditor] float healthPercent          = 1;
         [ShowInEditor] bool isDead                  = false;
 
-        public readonly CustomEvent<int>            OnHealthChanged         = new CustomEvent<int>();
-        public readonly CustomEvent<float>          OnHealthPercentChanged  = new CustomEvent<float>();
-        public readonly CustomEvent<int, float>     OnHealthValuesChanged   = new CustomEvent<int, float>();
+        [HideInEditor] public readonly CustomEvent<int>            OnHealthChanged         = new CustomEvent<int>();
+        [HideInEditor] public readonly CustomEvent<float>          OnHealthPercentChanged  = new CustomEvent<float>();
+        [HideInEditor] public readonly CustomEvent<int, float>     OnHealthValuesChanged   = new CustomEvent<int, float>();
 
-        public readonly CustomEvent                 OnDeath                 = new CustomEvent();
+        [HideInEditor] public readonly CustomEvent                 OnDeath                 = new CustomEvent();
 
         public void SetHealth(int health)
         {
@@ -23,9 +23,13 @@ namespace Game
             HealthChanged();
         }
 
-        public void SetMaxHealth(int maxHealth)
+        public void SetMaxHealth(int maxHealth, bool setAsCurrentHealth = false)
         {
             this.maxHealth = maxHealth;
+
+            if (setAsCurrentHealth)
+                health = maxHealth;
+
             HealthChanged();
         }
 
@@ -79,6 +83,8 @@ namespace Game
 
             if (health <= 0)
                 Death();
+            else
+                isDead = false;
         }
 
         void Death()

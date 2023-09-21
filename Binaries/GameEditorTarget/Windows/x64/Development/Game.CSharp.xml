@@ -40,6 +40,16 @@
             Finds all script components of type T in the children hierarchy of the provided actor.
             </summary>
         </member>
+        <member name="M:Game.Extensions.HasAnyTag(FlaxEngine.Actor,FlaxEngine.Tag[])">
+            <summary>
+            Checks if an actor has any of the specified tags from an array of Tag objects.
+            </summary>
+        </member>
+        <member name="M:Game.Extensions.HasAnyTag(FlaxEngine.Actor,System.String[])">
+            <summary>
+            Checks if an actor has any of the specified tags from an array of string Tags.
+            </summary>
+        </member>
         <member name="T:CustomEvent">
             <summary>
             Custom event implementation that allows subscribing, unsubscribing, and invoking event listeners.

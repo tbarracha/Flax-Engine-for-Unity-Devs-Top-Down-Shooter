@@ -5,14 +5,19 @@ namespace Game
 {
     public class Projectile : Script
     {
+        [Header("Properties")]
         public float speed          = 15; // in centimeters
         public float lifetime       = 1;
         public int  damage          = 1;
         public Vector3 hitBoxSize   = Vector3.One * 10;
 
+        [Header("Impact Layers")]
+        public LayersMask impactLayers;     // layers projectile collides with
+        public string[] damageTags;         // actors with these tags, will recieve damage
+
         float time;
 
-        public readonly CustomEvent<Projectile> OnProjectileDestroyed = new CustomEvent<Projectile>();
+        [HideInEditor] public readonly CustomEvent<Projectile> OnProjectileDestroyed = new CustomEvent<Projectile>();
 
         public override void OnUpdate()
         {
@@ -33,14 +38,29 @@ namespace Game
         {
             Collider[] colliders = new Collider[0];
             
-            if (Physics.OverlapBox(Actor.Position, hitBoxSize * .5f, out colliders, Actor.Orientation))
+            if (Physics.OverlapBox(Actor.Position, hitBoxSize * .5f, out colliders, Actor.Orientation, impactLayers))
             {
                 for (int i = 0; i < colliders.Length; i++)
-                {
-                    Debug.Log("Hit Collider: " + colliders[i]);
-                }
+                    ProcessCollision(colliders[i]);
 
                 Destroy(Actor);
+            }
+        }
+
+        void ProcessCollision(Collider collider)
+        {
+            Debug.Log("Hit Collider: " + collider);
+
+            if (collider.HasAnyTag(damageTags) == true)
+            {
+                // find health component
+                HealthComponent health = collider.FindScriptInParent<HealthComponent>();
+
+                if (health == null)
+                    health = collider.FindScript<HealthComponent>();
+
+                if (health != null)
+                    health.ApplyDamage(damage);
             }
         }
 

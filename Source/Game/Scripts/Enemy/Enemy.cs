@@ -93,6 +93,13 @@ namespace Game
             enemyState = targetState;
         }
 
+        protected override void Death()
+        {
+            base.Death();
+
+            Destroy(Actor);
+        }
+
         public override void OnDebugDraw()
         {
             if (enemyState != EnemyState.Idle)

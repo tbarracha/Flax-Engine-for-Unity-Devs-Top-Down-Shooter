@@ -53,5 +53,10 @@ namespace Game
             bool isShooting = Input.GetMouseButton(MouseButton.Left);
             shootComponent.HandleShooting(isShooting);
         }
+
+        protected override void Death()
+        {
+            Debug.Log("Player Has Died!");
+        }
     }
 }
